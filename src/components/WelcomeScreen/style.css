@@ -1,0 +1,19 @@
+.welcomeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(116, 115, 113);
+}
+
+.welcomeCard img {
+  width: 250px;
+  height: 250px;
+}
+
+.welcomeButton {
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
+  background-color: rgb(243, 227, 8);
+}
