@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {welcomeScreenOn ? <WelcomeScreen setWelcomeScreenOn={setWelcomeScreenOn} /> : <Students students={students} welcomeScreenOn={welcomeScreenOn} />}
+        {welcomeScreenOn ? <WelcomeScreen setWelcomeScreenOn={setWelcomeScreenOn} /> : <Students students={students} welcomeScreenOn={welcomeScreenOn} setWelcomeScreenOn={setWelcomeScreenOn} />}
       </header>
     </div>
   );

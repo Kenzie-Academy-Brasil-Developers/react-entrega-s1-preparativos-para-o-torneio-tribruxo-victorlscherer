@@ -6,7 +6,7 @@ const WelcomeScreen = ({ setWelcomeScreenOn }) => {
     return (
         <div className="welcomeCard">
             <h1>Torneio Tribruxo</h1>
-            <img src={trofeu} />
+            <img src={trofeu} alt="trofeu" />
             <h2>Clique no botão para encontrar os bruxos escolhidos!</h2>
             <button className="welcomeButton" onClick={() => { return setWelcomeScreenOn(false) }}>Começar!</button>
         </div>

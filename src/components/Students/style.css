@@ -1,8 +1,35 @@
-.card {
+.containerCard {
   color: yellow;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
 }
 
-.card img {
-  width: 100px;
+.containerCard button {
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
+  background-color: rgb(243, 227, 8);
+  margin-top: 20px;
+}
+
+.cards img {
+  width: 150px;
+}
+
+.cards {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.card {
+  padding-top: 20px;
+  border: 2px solid saddlebrown;
+  width: 25%;
+  font-size: 15px;
+  background-color: rgb(136, 136, 136);
 }
